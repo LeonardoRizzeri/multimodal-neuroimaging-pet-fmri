@@ -85,6 +85,7 @@ multimodal-neuroimaging-pet-fmri/
 |   +-- MAIN_FSL_GROUP03.sh
 |   +-- MAIN_MATLAB_GROUP03.m
 +-- figures/
+|   +-- Figure1_tissues_segmentation.png
 |   +-- Figure2_TACs.png
 |   +-- Figure3_SUVR_stem.png
 |   +-- Figure4_FD.png
@@ -95,12 +96,10 @@ multimodal-neuroimaging-pet-fmri/
 |   +-- Figure9_Cortical_Functional_Gradients.png
 |   +-- Figure10_PET_rsFMRI_integration.png
 +-- report/
-|   +-- REPORT_GROUP03.pdf
+|   +-- FDG-PET_rs-fMRI_Multimodal_Neuroimaging_Report.pdf
 +-- data/
     +-- README.md
 ```
-
-
 
 ## Requirements
 
@@ -132,7 +131,6 @@ data_processed/
 +-- func/
 ```
 
-
 ## Data Availability
 
 Neuroimaging data are not included in this repository due to their size and possible redistribution restrictions. The repository contains the analysis code, representative figures and report needed to document the workflow. To reproduce the analysis, place the required T1w, FDG-PET, rs-fMRI, atlas and metadata files in the expected local folder structure.
@@ -141,6 +139,7 @@ Neuroimaging data are not included in this repository due to their size and poss
 
 The main generated outputs include:
 
+- Tissue segmentation figure from T1w anatomical processing.
 - PET time-activity curves across functional networks and cerebellum.
 - PET motion parameter plots.
 - Cortical SUVR estimates.
@@ -151,5 +150,3 @@ The main generated outputs include:
 - Degree and strength graph metrics.
 - Cortical functional gradient visualization.
 - PET-fMRI multimodal integration scatter plots.
-
-
