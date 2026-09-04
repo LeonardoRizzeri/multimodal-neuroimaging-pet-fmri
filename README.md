@@ -100,7 +100,7 @@ multimodal-neuroimaging-pet-fmri/
     +-- README.md
 ```
 
-Large raw and processed neuroimaging files should not be committed to GitHub. The `data/README.md` file should describe how to obtain the required dataset and where each file should be placed before running the pipeline.
+
 
 ## Requirements
 
@@ -132,13 +132,10 @@ data_processed/
 +-- func/
 ```
 
-For a cleaner public repository, external dependencies such as BrainSpace should preferably be installed separately rather than committed inside `data/utils/`.
 
 ## Data Availability
 
 Neuroimaging data are not included in this repository due to their size and possible redistribution restrictions. The repository contains the analysis code, representative figures and report needed to document the workflow. To reproduce the analysis, place the required T1w, FDG-PET, rs-fMRI, atlas and metadata files in the expected local folder structure.
-
-Before making any subject-level MRI, PET or fMRI data public, verify the dataset license, consent terms and institutional privacy requirements.
 
 ## Outputs
 
@@ -155,6 +152,4 @@ The main generated outputs include:
 - Cortical functional gradient visualization.
 - PET-fMRI multimodal integration scatter plots.
 
-## Notes for Public Release
 
-For a public GitHub portfolio repository, include the code, selected figures and report, but exclude raw and processed NIfTI data. If the report contains personal email addresses, consider uploading a public version with emails removed while preserving author names and project context.
