@@ -1,0 +1,93 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MATLAB temporary and generated files
+*.asv
+*.m~
+*.mat
+*.fig
+*.mlx
+*.mlappinstall
+slprj/
+codegen/
+
+# Logs and runtime outputs
+*.log
+*.out
+*.err
+*.tmp
+tmp/
+temp/
+cache/
+
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Neuroimaging data: raw and processed
+data/anat/
+data/func/
+data/pet/
+data_processed/
+data_processed_test/
+
+# NIfTI and related imaging outputs
+*.nii
+*.nii.gz
+*.mgz
+*.mgh
+*.img
+*.hdr
+*.gii
+*.trk
+*.tck
+
+# BIDS sidecars may contain acquisition or participant metadata.
+# Keep only intentionally curated public examples.
+data/**/*.json
+data/**/*.tsv
+data/**/*.bval
+data/**/*.bvec
+
+# FSL generated files
+*.mat
+*.par
+*.rms
+*.abs
+*.rel
+*.html
+*.xfm
+*.nii.gz.par
+report_log.html
+
+# Large external dependencies should be installed separately
+data/utils/BrainSpace-master/
+BrainSpace-master/
+
+# Keep lightweight documentation for excluded data
+!data/
+!data/README.md
+!data/utils/
+!data/utils/README.md
+
+# Keep curated project outputs
+!figures/
+!figures/*.png
+!figures/*.jpg
+!figures/*.jpeg
+!figures/*.pdf
+!report/
+!report/*.pdf
