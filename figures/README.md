@@ -13,5 +13,3 @@ Expected outputs include:
 - `Figure8_degree_strength.png`
 - `Figure9_Cortical_Functional_Gradients.png`
 - `Figure10_PET_rsFMRI_integration.png`
-
-The actual image files are not generated from the repository alone because the subject-level neuroimaging data are excluded from version control. If public sharing is allowed, curated final figures can be added here.
